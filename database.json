@@ -1,0 +1,212 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "address": "9420 Sage Street",
+      "sqFt": 1200,
+      "adaCompliant": true
+    },
+    {
+      "id": 2,
+      "address": "9527 Mechanic Street",
+      "sqFt": 1200,
+      "adaCompliant": true
+    },
+    {
+      "id": 3,
+      "address": "7886 Marsh Drive",
+      "sqFt": 1200,
+      "adaCompliant": true
+    }
+  ],
+  "employees": [
+    {
+      "name": "General Beauregard",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": "25",
+      "id": 1
+    },
+    {
+      "name": "Beauregard",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": "15",
+      "id": 2
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "thejmdw",
+      "email": "the@jmdw.com"
+    },
+    {
+      "email": "jimi@hendrix.com",
+      "name": "Jimi Hendrix",
+      "id": 2
+    },
+    {
+      "email": "rolling@stones.com",
+      "name": "Keith Richards",
+      "id": 3
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "typeName": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "typeName": "Cookies"
+    },
+    {
+      "id": 3,
+      "typeName": "Chocolate"
+    },
+    {
+      "id": 4,
+      "typeName": "Sours"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "typeId": 2,
+      "name": "Oreos",
+      "price": 3
+    },
+    {
+      "id": 2,
+      "typeId": 2,
+      "name": "Oatmeal Raisin",
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "typeId": 2,
+      "name": "Double Tree Front Desk",
+      "price": 0
+    },
+    {
+      "id": 4,
+      "typeId": 4,
+      "name": "Sour Patch Kids",
+      "price": 2
+    },
+    {
+      "id": 5,
+      "typeId": 4,
+      "name": "Sour Gummy Worms",
+      "price": 2
+    },
+    {
+      "id": 6,
+      "typeId": 3,
+      "name": "Super Dark",
+      "price": 4
+    },
+    {
+      "id": 7,
+      "typeId": 1,
+      "name": "Werther's OG",
+      "price": 0.25
+    },
+    {
+      "id": 8,
+      "typeId": 1,
+      "name": "Peppermints",
+      "price": 0.1
+    },
+    {
+      "id": 9,
+      "typeId": 3,
+      "name": "Chocolate Cake",
+      "price": "2.50"
+    }
+  ],
+  "customerOrders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "timestamp": 1623178913602
+    }
+  ],
+  "orders": [
+    {
+      "productId": 1,
+      "customerId": 2,
+      "timeStamp": 1623188779595,
+      "id": 2
+    },
+    {
+      "productId": 2,
+      "customerId": 2,
+      "timeStamp": 1623195162971,
+      "id": 3
+    },
+    {
+      "productId": 3,
+      "customerId": 2,
+      "timeStamp": 1623195168381,
+      "id": 4
+    },
+    {
+      "productId": 7,
+      "customerId": 2,
+      "timeStamp": 1623195174698,
+      "id": 5
+    },
+    {
+      "productId": 7,
+      "customerId": 2,
+      "timeStamp": 1623195177627,
+      "id": 6
+    },
+    {
+      "productId": 7,
+      "customerId": 2,
+      "timeStamp": 1623195180148,
+      "id": 7
+    },
+    {
+      "productId": 7,
+      "customerId": 2,
+      "timeStamp": 1623195182531,
+      "id": 8
+    },
+    {
+      "productId": 1,
+      "customerId": 3,
+      "timeStamp": 1623249716897,
+      "id": 9
+    },
+    {
+      "productId": 1,
+      "customerId": 3,
+      "timeStamp": 1623249717288,
+      "id": 10
+    },
+    {
+      "productId": 1,
+      "customerId": 3,
+      "timeStamp": 1623249717800,
+      "id": 11
+    },
+    {
+      "productId": 1,
+      "customerId": 3,
+      "timeStamp": 1623249718290,
+      "id": 12
+    },
+    {
+      "productId": 7,
+      "customerId": 3,
+      "timeStamp": 1623249725703,
+      "id": 14
+    }
+  ]
+}
